@@ -7,7 +7,4 @@ class Solution:
             temp//=10
             rev = int(rev*10)+r
             
-        if rev==x:
-            return True
-        else:
-            return False
+        return rev==x
