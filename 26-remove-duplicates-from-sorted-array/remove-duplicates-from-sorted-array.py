@@ -5,5 +5,4 @@ class Solution:
             if nums[i] != nums[x]:
                 x+=1
                 nums[x] = nums[i]
-        y = x+1
-        return y
+        return x+1
