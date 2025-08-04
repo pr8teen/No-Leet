@@ -3,7 +3,7 @@ class Solution:
         min_p = prices[0]
         profit = 0
 
-        for i in range(len(prices)):
+        for i in range(1,len(prices)):
             curr_p = prices[i] - min_p
             if curr_p > profit:
                 profit = curr_p
