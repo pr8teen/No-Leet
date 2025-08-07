@@ -14,7 +14,6 @@ class Solution:
                         freq2[i] = 1
                     else:
                         freq2[i] +=1
-                for i in range(len(s)):
-                    if freq1 == freq2:
+                if freq1 == freq2:
                         return True
                 return False
